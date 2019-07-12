@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="https://github.com/benbusby/anomaly-mono/blob/master/anomaly_mono.png" alt="astral mono screenshot" />
+  <img style="width: 800px" src="https://github.com/benbusby/anomaly-mono/blob/master/anomaly_mono.gif" alt="anomaly mono gif" />
 </p>
