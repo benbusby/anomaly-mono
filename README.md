@@ -12,6 +12,6 @@ A unique monospaced programming font, inspired by "retrofuturism". The alphabeti
 Download [the AnomalyMono.otf file](AnomalyMono.otf) and open it. Your OS should see that it's a new font file and give you the option to install it.
 
 ## Author/License
-Created by [Ben Busby](https://benbubsy.com) (contact@benbusby.com)
+Created by [Ben Busby](https://benbusby.com) (contact@benbusby.com)
 
 Licensed under the SIL Open Font License ([see LICENSE](LICENSE))
