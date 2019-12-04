@@ -7,7 +7,9 @@ ltcyan='\033[0;96m'
 normal=$(tput sgr0)
 nc='\033[0m'
 
-BREAK="\n=========================================\n"
+RESULT=0
+SUMMARY=""
+BREAK="========================================="
 
 function runFontBakery () {
     echo -e "${ltcyan}Running $1...${nc}"
@@ -15,15 +17,11 @@ function runFontBakery () {
     fontbakery $1 *.otf
     case "$?" in
         0)
-            echo -e "$BREAK"
-            echo -e "$1 : ${green}${bold}PASSED${normal}${nc}"
-            echo -e "$BREAK"
+            SUMMARY+="$1: ${green}${bold}PASSED${normal}${nc}\n"
             ;;
         1)
-            echo -e "$BREAK"
-            echo -e "$1 : ${red}${bold}FAILED${normal}${nc}"
-            echo -e "$BREAK"
-            exit 1
+            SUMMARY+="$1: ${red}${bold}FAILED${normal}${nc}\n"
+            RESULT=1
             ;;
     esac
 }
@@ -36,3 +34,8 @@ fi
 runFontBakery "check-googlefonts"
 runFontBakery "check-adobefonts"
 runFontBakery "check-fontval"
+
+echo -e "$BREAK\n"
+echo -e "Summary:\n$SUMMARY"
+echo -e "$BREAK"
+exit $RESULT
