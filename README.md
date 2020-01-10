@@ -1,13 +1,9 @@
-<p align="center">
-  <img src="./img/anomaly_demo_light.png">
-</p>
-<p align="center">
-  <img src="./img/anomaly_demo_dark.png">
-</p>
+# Anomaly Mono
+[![Build Status](https://travis-ci.com/benbusby/anomaly-mono.svg?branch=master)](https://travis-ci.com/benbusby/anomaly-mono)
 
-___
-A unique monospaced programming font, inspired by "retrofuturism". The alphabetical characters of the font are designed as an homage to the aesthetic of older science fiction movies and magazines, while the numerical characters are an expansion on digital clock numbers. Both numbers and symbols were given special design consideration to stand out from alphabetical characters as well. The result is a font that creates a strong distinction between all types of glyphs and has a unique appearance, while still maintaining perfect legibility for writing and debugging code.
+A unique monospaced programming font, inspired by "retrofuturism". The alphabetical characters of the font are designed as an homage to the aesthetic of older science fiction movies and magazines, while the numerical characters are intended to mimic digital clock numbers. Symbols and numbers were given special design consideration to stand out from alphabetical characters as well. The result is a font that creates a strong distinction between all types of glyphs and has a unique appearance, while still maintaining perfect legibility for writing and debugging code.
 
+![Screenshot - Demo](img/anomaly_demo_light.png)
 ![Screenshot - C](img/screenshot_c.png)
 ![Screenshot - Bash](img/screenshot_bash.png)
 ![Screenshot - JavaScript](img/screenshot_js.png)
