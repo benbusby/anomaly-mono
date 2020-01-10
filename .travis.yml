@@ -1,0 +1,9 @@
+sudo: false
+language: python
+python: 3.6
+install:
+  - pip install -r requirements.txt
+script:
+  - fontbakery check-googlefonts AnomalyMono.otf
+  - fontbakery check-adobefonts AnomalyMono.otf
+  - fontbakery check-fontval AnomalyMono.otf
