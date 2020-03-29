@@ -1,0 +1,3 @@
+[submodule "nerd-fonts"]
+	path = nerd-fonts
+	url = https://github.com/benbusby/nerd-fonts.git
