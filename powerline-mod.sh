@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 if ! [[ -x "$(command -v fontforge)" ]]; then
     echo "Please install the fontforge command line tool before running this script"
     exit 1
