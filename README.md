@@ -5,7 +5,7 @@ A unique monospaced programming font, inspired by "retrofuturism". The alphabeti
 ## Features
 - [x] Powerline glyphs
 - [x] Bold variant
-- [x] Italic variant
+- [ ] Italic variant
 - [ ] Ligatures
 
 ## Install
