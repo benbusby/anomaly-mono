@@ -1,6 +1,6 @@
 # Anomaly Mono
 
-A unique monospaced programming font, inspired by "retrofuturism". The alphabetical characters of the font are designed as an homage to the aesthetic of older science fiction movies and magazines, while the numerical characters are intended to mimic digital clock numbers. Symbols and numbers were given special design consideration to stand out from alphabetical characters as well. The result is a font that creates a strong distinction between all types of glyphs and has a unique appearance, while still maintaining perfect legibility for writing and debugging code.
+A unique monospaced programming font, inspired by "retrofuturism". The letters of the font are designed as an homage to the aesthetic of older science fiction movies and magazines, while the numbers are inspired by seven-segment digit displays. Symbols and numbers were given special design consideration to stand out from alphabetical characters as well. Overall, the font is noteworthy for its unique appearance while still maintaining legibility for writing and debugging code.
 
 ## Features
 - [x] Powerline glyphs
