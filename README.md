@@ -15,11 +15,9 @@ If you're on Linux, you can also create an "AnomalyMono" directory under `/usr/s
 
 ## Screenshots
 
-![Screenshot - Demo](img/anomaly_demo_light.png)
-![Screenshot - C](img/screenshot_c.png)
-![Screenshot - Bash](img/screenshot_bash.png)
-![Screenshot - JavaScript](img/screenshot_js.png)
-![Screenshot - Python](img/screenshot_python.png)
+![Screenshot A](img/screenshots/anomaly_mono_ruby.png)
+![Screenshot B](img/screenshots/anomaly_mono_js.png)
+![Screenshot C](img/screenshots/anomaly_mono_swift.png)
 
 ## Author/License
 Created by [Ben Busby](https://benbusby.com) (contact@benbusby.com)
