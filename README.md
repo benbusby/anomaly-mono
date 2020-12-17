@@ -1,6 +1,6 @@
 ![Anomaly Mono](img/anomaly_mono.png)
 
-__
+___
 
 A unique monospaced programming font. Designed as a deviation from traditional monospaced fonts, Anomaly Mono manages to maintain perfect legibility and clear distinction between alphabetical and numeric glyphs, while providing an unconventional aesthetic.
 
