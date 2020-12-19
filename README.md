@@ -2,7 +2,10 @@
 
 ___
 
-[![fontbakery](https://github.com/benbusby/anomaly-mono/workflows/fontbakery/badge.svg)](https://github.com/benbusby/anomaly-mono/actions?query=workflow%3Afontbakery)
+**Fontbakery:**
+
+[![universal](https://github.com/benbusby/anomaly-mono/workflows/universal/badge.svg)](https://github.com/benbusby/anomaly-mono/actions?query=workflow%3Auniversal)
+[![googlefonts](https://github.com/benbusby/anomaly-mono/workflows/googlefonts/badge.svg)](https://github.com/benbusby/anomaly-mono/actions?query=workflow%3Agooglefonts)
 
 A unique monospaced programming font. Designed as a deviation from traditional monospaced fonts, Anomaly Mono manages to maintain perfect legibility and clear distinction between alphabetical and numeric glyphs, while providing an unconventional aesthetic.
 
