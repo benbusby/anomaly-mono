@@ -2,7 +2,10 @@
 
 ___
 
-[![fontbakery](https://github.com/benbusby/anomaly-mono/workflows/fontbakery/badge.svg)](https://github.com/benbusby/anomaly-mono/actions?query=workflow%3Afontbakery)
+**Fontbakery:**
+
+[![universal](https://github.com/benbusby/anomaly-mono/workflows/universal/badge.svg)](https://github.com/benbusby/anomaly-mono/actions?query=workflow%3Auniversal)
+[![googlefonts](https://github.com/benbusby/anomaly-mono/workflows/googlefonts/badge.svg)](https://github.com/benbusby/anomaly-mono/actions?query=workflow%3Agooglefonts)
 
 A unique monospaced programming font. Designed as a deviation from traditional monospaced fonts, Anomaly Mono manages to maintain perfect legibility and clear distinction between alphabetical and numeric glyphs, while providing an unconventional aesthetic.
 
@@ -11,7 +14,7 @@ A unique monospaced programming font. Designed as a deviation from traditional m
 - [ ] Ligatures
 
 ## Install
-Download the AnomalyMonoRegular.otf and open it. Your OS should prompt you with an option to install the new font.
+Download [AnomalyMono-Regular.otf](AnomalyMono-Regular.otf) (or [AnomalyMono-Powerline.otf](AnomalyMono-Powerline.otf) for Powerline support) and open it. Your OS should prompt you with an option to install the new font.
 
 If you're on Linux, you can also create an "AnomalyMono" directory under `/usr/share/fonts`, and move the OTF file into the new directory.
 
