@@ -10,8 +10,15 @@ ___
 A unique monospaced programming font. Designed as a deviation from traditional monospaced fonts, Anomaly Mono manages to maintain perfect legibility and clear distinction between alphabetical and numeric glyphs, while providing an unconventional aesthetic.
 
 ## Additional Features
-- [x] Powerline glyphs
-- [ ] Ligatures
+#### Powerline Support
+![powerline1](img/features/powerline1.png)
+
+![powerline2](img/features/powerline2.png)
+
+![powerline3](img/features/powerline3.png)
+
+#### Ligatures
+TODO
 
 ## Install
 Download [AnomalyMono-Regular.otf](AnomalyMono-Regular.otf) (or [AnomalyMono-Powerline.otf](AnomalyMono-Powerline.otf) for Powerline support) and open it. Your OS should prompt you with an option to install the new font.
