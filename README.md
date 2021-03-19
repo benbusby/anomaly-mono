@@ -1,5 +1,5 @@
 ![Anomaly Mono](img/anomaly_mono.png)
-![Anomaly Mono Screenshot](scripts/screenshot/anomaly_mono.ppm)
+![Anomaly Mono Screenshot](scripts/screenshot/anomaly_mono.png)
 
 ___
 
