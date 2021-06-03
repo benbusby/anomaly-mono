@@ -35,4 +35,6 @@ If you're on Linux, you can also create an "AnomalyMono" directory under `/usr/s
 ## Author/License
 Created by [Ben Busby](https://benbusby.com) (contact@benbusby.com)
 
+Themes used in screenshots are [earthbound themes](https://github.com/benbusby/earthbound-themes)
+
 Licensed under the SIL Open Font License ([see LICENSE](LICENSE))
